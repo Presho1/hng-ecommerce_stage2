@@ -1,0 +1,307 @@
+
+body{
+  background: linear-gradient(to bottom, #D5D3C6, #6F6E67);
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  transition: 0.5s;
+  text-transform: capitalize;
+}
+
+.logo {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36.05px;
+  padding-left: 44px;
+}
+
+/* Navbar starts here */
+.header{
+  padding: 7px;
+  margin-bottom: 57px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a{
+  color: #000000;
+  margin: 7px;
+  padding: 0.5rem;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36.05px;
+}
+
+.icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn{
+  padding-right: 26px;
+}
+
+.btn-cart{
+  padding-right: 70px;
+}
+/* Navabr ends here */
+
+/* Homepage starts here */
+.home{
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+.home_left{
+  width: 45%;
+  margin-bottom: 20px;
+  padding-left: 140px; 
+  padding-top: 20px;
+}
+.home_right{
+  width: 45%;
+  padding: 50px;
+  height: 880px;
+  margin-top: 250px; 
+}
+.homeImg{
+  width: 600px;
+  height: 500px;
+}
+.homeText{
+  width: Hug (545px);
+  height: Hug (288px);
+  gap: 20px
+}
+
+.home_header{
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 96px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #000000;
+}
+
+.orange{
+color: #FBA138;
+}
+
+.para2{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #000000;
+}
+
+.home-click{
+  padding: 17px 12px;
+  border-radius: 10px;
+  border: 1px solid #FBA138;
+  background-color: #1F1F1F;
+  color: #fff;
+}
+
+.home-click span{
+  color: #FCFCFD;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* Homepage ends here */
+
+/* Product Card starts here */
+.product{
+  width: 100%;
+  height: 100vh;
+  /* display: flex;
+  align-items: center; */
+}
+
+.product-button{
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.button-cart{
+  padding: 7px 12px;
+  border-radius: 10px;
+  border: 1px solid #FBA138;
+  background-color: #333232;
+  color: #fff;
+}
+
+.button-cart span{
+  color: #FCFCFD;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.button-increment{
+  padding: 7px 12px;
+  border-radius: 10px;
+  border: 1px solid #FBA138;
+  background-color: #FFFFFF;
+  color: #000000;
+}
+.box{
+  width: 400px;
+  height: auto;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 20px;
+  background-color: #EBEBEB;
+}
+.boxImg{
+  /* width: 100%; */
+  border-radius: 10px;
+  height: 300px;
+}
+.boxTitle{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+  padding-bottom: 10px;
+}
+.boxPrice{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+  padding-bottom: 30px;
+}
+.boxRating{
+  color: green;
+  font-size: 10px;
+  margin: 10px 0;
+}
+
+.product-info{
+  margin-left: 26px;
+
+}
+
+span:hover{
+  color: rgb(248, 197, 179);
+}
+
+
+/* Product Card ends here */
+
+/* Collection Card ends here */
+
+.collection{
+  width: 100%;
+  height: 130vh;
+}
+
+/* Collection Card ends here */
+
+/* Review start here */
+
+.testimonial-col{
+  border-radius: 30px;
+  background: #EDEDED;
+  padding: 25px;
+  cursor: pointer;
+  display: flex;
+  width:  368px;
+}
+.testimonial-col img{
+  height: 76px;
+  margin-left: 5px;
+  margin-right: 20px;
+}
+
+
+/* Review ends here */
+/* Footer Starts Here */
+.footer{
+  display: flex;
+  width: 100%;
+  background: #EEECDE;
+}
+
+.footer_left{
+  width: 50%;
+  padding:  128px 0;
+  padding-left: 80px;
+}
+
+.contact_container{
+  padding-top: 33px;
+}
+
+.contact_social{
+  width: 50px;
+  padding-right: 30px;
+}
+
+.form-control{
+  margin-top: 29px;
+  padding: 11px 7px;
+  width: 337px;
+  border-radius: 10px;
+  border: none;
+  background-color: #D9D9D9;
+}
+
+.input-group-text{
+  padding: 11px 43px;
+  width: 127px;
+  border-radius: 10px;
+  border: 1px solid #FBA138;
+  background-color: #333232;
+  color: #fff;
+}
+
+.footer_right{
+  width: 50%;
+  display: flex;
+  padding: 126px 0;
+  align-items: flex-start;
+  gap: 43px;
+}
+
+.footer_description{
+  color: #000000;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.footer-sub_description{
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.footer_title{
+  color: #000000;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.footer_para{
+  color: #000000;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 35px; 
+}
+
+/* Footer Ends Here */
