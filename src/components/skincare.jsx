@@ -34,7 +34,7 @@ const Skincare = () => {
             </div>
             <div style={{display: 'flex', marginLeft: 80, marginTop: 115}}>
                 <div  style={{paddingRight: 100,  }}>
-                    <h4  style={{fontSize: 22, fontWeight: 500, lineHeight: '36px', width: 260}}>Filter By</h4>
+                    <h4  style={{fontSize: 22, fontWeight: 500, lineHeight: '36px', width: 230}}>Filter By</h4>
                     <div>
                         <h4 style={{fontSize: 22, fontWeight: 400, lineHeight: '36px'}}>Price +</h4>                 
                         <h4 style={{fontSize: 22, fontWeight: 400, lineHeight: '36px'}}>Ingredients+</h4> 

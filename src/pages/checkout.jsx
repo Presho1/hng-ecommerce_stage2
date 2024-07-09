@@ -21,7 +21,7 @@ const Checkout = () => {
             <div style={{display: 'flex'}}>
                 <div className='checkout-left'>
                     <h3 style={{fontSize: 24, fontWeight: 500, marginLeft: 82, marginTop: 92}}>Personal data</h3>
-                    <form action="">
+                    <form style={{ marginLeft: 82}} action="">
                         <div className="form-group">
                             <label htmlFor="firstName" className="form-label">Full Name</label>
                             <input type="text" className="form-control" style={{width: '100%'}}  />
@@ -96,7 +96,7 @@ const Checkout = () => {
             <div style={{display: 'flex'}}>
                 <div className='checkout-left'>
                     <h3 style={{fontSize: 24, fontWeight: 500, marginLeft: 82, marginTop: 92}}>Delivery options</h3>
-                    <div style={{marginLeft: 72, backgroundColor: '#C7C7C7', width: 560, paddingBottom: 34, paddingTop: 34, paddingLeft: 11, paddingRight: 53}} className="checkout-box">
+                    <div style={{marginLeft: 82, backgroundColor: '#C7C7C7', width: 560, paddingBottom: 34, paddingTop: 34, paddingLeft: 11, paddingRight: 53}} className="checkout-box">
                         <div className='delivery' style={{display: 'flex' , alignItems:'center', justifyContent: 'space-between', marginBottom: 14}}>
                             <div style={{display: 'flex' , alignItems: 'center'}}>
                                 <div style={{paddingLeft: 11}}>

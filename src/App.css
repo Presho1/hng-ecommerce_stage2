@@ -202,7 +202,7 @@ span:hover{
 
 /* Skincare card starts here */
 .skincare-box{
-  width: 300px;
+  width: 290px;
   height: auto;
   border-radius: 20px;
   padding: 10px;
@@ -340,9 +340,9 @@ span:hover{
 }
 
  form {
-  max-width: 600px;
+  max-width: 500px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 20px 20px 20px 0;
   border-radius: 10px;
 }
 
