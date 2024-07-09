@@ -1,6 +1,7 @@
 import { IoPersonOutline } from "react-icons/io5";
 import { IoMdHeartEmpty } from "react-icons/io";
 import { MdOutlineShoppingCart } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -11,8 +12,8 @@ const Navbar = () => {
         </div>
 
         <nav className="navbar">
-          <a href="#">Home</a>
-          <a href="#">Catalog</a>
+          <Link to='/'>Home</Link>
+          <Link to='/catalog'>Catalog</Link>
           <a href="#">About us</a>
           <a href="#">Contact</a>
         </nav>

@@ -18,7 +18,7 @@ body{
   font-size: 24px;
   font-weight: 500;
   line-height: 36.05px;
-  padding-left: 44px;
+  padding-left: 72px;
 }
 
 /* Navbar starts here */
@@ -198,8 +198,24 @@ span:hover{
   color: rgb(248, 197, 179);
 }
 
-
 /* Product Card ends here */
+
+/* Skincare card starts here */
+.skincare-box{
+  width: 300px;
+  height: auto;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 20px;
+  background-color: #EBEBEB;
+}
+
+.skincare-info{
+  margin-left: 10px;
+}
+
+/* Skincare card ends here */
+
 
 /* Collection Card ends here */
 
@@ -305,3 +321,75 @@ span:hover{
 }
 
 /* Footer Ends Here */
+
+/* Checkout starts Here */
+.checkout{
+  padding: 30px 80px;
+}
+
+.checkout-img{
+  width: 100%;
+}
+.checkout-left{
+  width: 45%;
+}
+
+.checkout-right{
+  width: 45%;
+
+}
+
+ form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+.form-label {
+  font-weight: 400;
+  font-size: 16;
+}
+
+.form-control {
+  box-sizing: border-box;
+  border: solid 1px #FBA138;
+
+} 
+
+.checkout-box{
+  width: 648px;
+  /* height: auto; */
+  border-radius: 20px;
+  padding: 10px;
+  margin: 20px;
+  background-color: #EBEBEB;
+}
+
+.checkout-info{
+  margin-left: 10px;
+}
+
+.checkoutTitle{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+}
+.checkoutPrice{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+}
+
+.delivery{
+  border: 1px solid #FBA138;
+  border-radius: 10px;
+  background-color: #fff;
+}
+/* Checkout Ends Here */
